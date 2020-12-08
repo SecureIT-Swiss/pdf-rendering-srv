@@ -1,5 +1,8 @@
 = PDF Rendering Service
 
+## Starting the Service
+`docker run -e ALLOW_HTTP=true -p 127.0.0.1:9000:9000 docker.pkg.github.com/secureit-swiss/pdf-rendering-srv/pdf-rendering-srv:1.0.0`
+
 A Docker image for rendering PDFs from HTML part of the
 link:https://github.com/restorecommerce[Restorecommerce].
 
